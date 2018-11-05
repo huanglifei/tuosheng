@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>拓盛</title>
+    <meta content="IE = 11.0000" http-equiv="X-UA-Compatible">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="swiper-4.2.2/js/swiper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="swiper-4.2.2/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+
+<body>
+    <!-- 头部  start -->
+    <header class="w100">
+        <div class="w1200 header clearfix">
+            <div class="rightmenu">
+                <span>
+					<i class="fa fa-envelope"></i> <a href="mailto:sales@toptionchem.com">sales@toptionchem.com</a>
+				</span>
+                <span>
+					Language:
+				</span>
+                <a href="#">
+					<img src="images/America.jpg">
+				</a>
+                <a href="#">
+					<img src="images/flag.jpg">
+				</a>
+            </div>
+        </div>
+        <div class="logo-box clearfix">
+            <div class="colorbloack h60 fl bgcolorW"></div>
+            <div class="w1200 inlieblock">
+                <div class="logopic">
+                    <a href="#"><img src="images/logo.png"></a>
+                    <span class="rigpic">
+                    	<img src="images/leftlogo.png">
+                    </span>
+                </div>
+                <div class="midblock">
+                	<img src="images/leftnav.png" >
+                </div>
+    			<div class="nav-box">               	
+                    <a href="">Home</a>
+                    <a href="">Company </a>
+                    <a href="">Products</a>
+                    <a href="">Inquiry</a>
+                    <a href="">Contact us</a>
+                </div>
+               <!--  <div class="searchbox">
+                    <input type="text" name="">
+                    <i class="fa fa-search"></i>
+                </div> -->
+            </div>
+            <div class="colorbloack fr h72" style="background-color: rgba(40, 52, 110, 0.9);">1</div>
+        </div>
+    </header>
+    <!-- 头部  stop -->
+
+
+    <!-- 中部 start -->
+    <div class="swiper-container indexbanner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            	<div class="imgbox">
+            		<img src="images/banner.jpg">
+            	</div>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <!-- 如果需要滚动条 -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+    <script>
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'horizontal', // 垂直切换选项
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // 如果需要滚动条
+        // scrollbar: {
+        //     el: '.swiper-scrollbar',
+        // },
+    })
+    </script>
+    <!-- 中部 stop -->
+
+    <!-- 底部 start -->
+    <!-- 底部  stop -->
+</body>
+
+</html>
