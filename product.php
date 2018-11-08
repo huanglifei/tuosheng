@@ -17,8 +17,8 @@
 
 </div>
 
-<div class="w1200 mt50 textleft mb100">
-	<div class="productmenu">
+<div class="w1200 mt50 textleft mb100 animated fadeInUp">
+	<div class="productmenu fs16 fwb">
 		<a href="javascript:;">Encapsulated Gel Breaker </a>
 		<a href="javascript:;">PVC Stabilizer  </a>	
 		<a href="javascript:;">Succinic Acid   </a>	
@@ -30,8 +30,8 @@
 		<a href="javascript:;">Sulfite </a>
 	</div>
 
-	<div class="productList clearfix mt40">
-		<div class="itempro">
+	<div class="productList clearfix mt40 ">
+		<div class="itempro animated ">
 			<div class="pic">
 				<a href="product_info.php">
 					<img src="images/pro.png">
@@ -53,7 +53,7 @@
 			</div>			
 		</div>
 
-		<div class="itempro">
+		<div class="itempro animated ">
 			<div class="pic">
 				<a href="product_info.php">
 					<img src="images/pro.png">
@@ -75,7 +75,7 @@
 			</div>			
 		</div>
 
-		<div class="itempro">
+		<div class="itempro animated ">
 			<div class="pic">
 				<a href="product_info.php">
 					<img src="images/pro.png">
@@ -97,7 +97,7 @@
 			</div>			
 		</div>
 
-		<div class="itempro">
+		<div class="itempro animated ">
 			<div class="pic">
 				<a href="product_info.php">
 					<img src="images/pro.png">
@@ -119,7 +119,7 @@
 			</div>			
 		</div>
 
-		<div class="itempro">
+		<div class="itempro animated ">
 			<div class="pic">
 				<a href="product_info.php">
 					<img src="images/pro.png">
@@ -141,7 +141,7 @@
 			</div>			
 		</div>
 
-		<div class="itempro">
+		<div class="itempro animated ">
 			<div class="pic">
 				<a href="product_info.php">
 					<img src="images/pro.png">

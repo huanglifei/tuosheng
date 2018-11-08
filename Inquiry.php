@@ -4,7 +4,7 @@
 <div class="pagewrapbox">
 	
 
-	<div class="clearfix pageheadtop">
+	<div class="clearfix pageheadtop ">
 		<div class="picbox">
 			<img src="images/Inquiry.png">
 		</div>
@@ -14,13 +14,13 @@
 		</div>
 
 
-		<div class="w1200 mt70 bigmenu clearfix">
+		<div class="w1200 mt70 bigmenu clearfix animated fadeInUp">
 			<span class="fs30 fcyellow">Inquiry </span>
 		</div>
 
 	</div>
 
-	<div class="w1200 mt50 textleft mb100 inquiry-box">
+	<div class="w1200 mt50 textleft mb100 inquiry-box animated fadeInUp">
 		<div class="">Notice:Fill the products you want to inquiry in the form below. We'll contact you as soon as possible.</div>
 		<form class="mt50 formbox">
 			<ul>
@@ -41,8 +41,14 @@
 				<li>
 					<label></label>
 					<div class="btnbox">
-						<button type="type" class="btn-Submit">Submit</button>
-						<button type="reset" class="btn-Reset">Reset</button>
+						<button type="type" class="btn-Submit">
+							<span class="animatebox"></span>
+							Submit
+						</button>
+						<button type="reset" class="btn-Reset">
+							<span class="animatebox"></span>
+							Reset
+						</button>
 					</div>
 					
 

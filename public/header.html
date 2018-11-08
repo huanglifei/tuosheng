@@ -9,9 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="swiper-4.2.2/js/swiper.min.js"></script>
+  
     <script type="text/javascript" src="js/js.js"></script>
     <link rel="stylesheet" type="text/css" href="swiper-4.2.2/css/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fancybox/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fancybox/css/index.css">
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
 </head>
@@ -25,36 +28,34 @@
             <div class="cube2"></div>
         </div>
     </div>
-    <header class="w100">
-        <div class="w1200 header clearfix">
+    <header class="w100 ">
+        <div class=" header  pc-hide clearfix">
             <div class="rightmenu">
-                <span>
+                <span class="">
                     <i class="fa fa-envelope"></i> <a href="mailto:sales@toptionchem.com">sales@toptionchem.com</a>
                 </span>
-                <span>
-                    Language:
+                <span class="pr10">
+                    Language: 
                 </span>
                 <a href="#">
-                    <img src="images/America.jpg">
+                    <img src="images/America.jpg" alt="English"  title="English">
                 </a>
                 <a href="#">
                     <img src="images/flag.jpg">
                 </a>
             </div>
         </div>
-        <div class="logo-box clearfix">
-            <div class="colorbloack h60 fl bgcolorW"></div>
-            <div class="w1200 inlieblock">
+        <div class="logo-box clearfix pc-hide">
+            <!-- <div class="colorbloack h60 fl bgcolorW"></div> -->
+            <div class="w1200-a ">
                 <div class="logopic">
                     <a href="#"><img src="images/logo.png"></a>
-                    <span class="rigpic">
-                        <img src="images/leftlogo.png">
-                    </span>
+                   
                 </div>
-                <div class="midblock">
+               <!--  <div class="midblock">
                     <img src="images/leftnav.png" >
                     <span>1</span>
-                </div>
+                </div> -->
                 <div class="nav-box">
                     <div class="navlink">
                         <a href="../tuosheng/index.php">Home</a>
@@ -69,7 +70,30 @@
                     </div>
                 </div>
             </div>
-            <div class="colorbloack fr h72" style="background-color: rgba(40, 52, 110, 0.9);"></div>
+            <!-- <div class="colorbloack fr h72" style="background-color: rgba(40, 52, 110, 0.9);"></div> -->
         </div>
     </header>
     <!-- 头部  stop -->
+
+
+    <!-- 手机版头部 start-->
+    <div class="mobile-header clearfix">
+        <div class="icontbox clearfix">
+            <i class="fa fa-reorder menubox J-mobile-nav"></i>
+            <div class="logobox">
+                <img src="images/footerlogo.png">
+            </div>
+        </div>
+        <div class="mobile-nav J-mobile-box">
+            <div class="navlink">
+                <a href="../tuosheng/index.php">Home</a>
+                <a href="../tuosheng/company.php">Company </a>
+                <a href="../tuosheng/product.php">Products</a>
+                <a href="../tuosheng/Inquiry.php">Inquiry</a>
+                <a href="../tuosheng/ContactUs.php">Contact us</a>
+            </div>
+        </div>
+        
+
+    </div>
+    <!-- 手机版头部 stop-->

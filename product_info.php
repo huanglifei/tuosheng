@@ -13,10 +13,10 @@
 		</div> -->
         </div>
         <div class="w1200 mt70 textleft mb100 productinfo">
-            <div class="infotop clearfix">
+            <div class="infotop clearfix animated fadeInUp">
                 <div class="imgbox">
                     <img src="images/pro.png">
-			</div>
+				</div>
                     <div class="info-right">
                         <div class="name-box">Calcium Bromide</div>
                         <ul class="mt20">
@@ -47,10 +47,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="navitem mt40">
+                <div class="navitem mt40 animated">
                     Specifications
                 </div>
-                <div class="mt40 tabbox">
+                <div class="mt40 tabbox animated">
                     <p class="fs18">Calcium Bromide Specifications:</p>
                     <table class="mt20" width="100%" border="1" cellspacing="0" cellpadding="0">
                         <tr>
@@ -92,7 +92,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="navitem mt40">
+                <div class="navitem mt40 animated">
                     Product Application
                 </div>
                 <div class="mt40">
@@ -101,35 +101,43 @@
                         <li><span>•</span> Mainly used as completion fluid, mounting fluid and maintaining fluid in oil drilling.</li>
                     </ul>
                 </div>
-                <div class="navitem mt40">
+                <div class="navitem mt40 animated">
                     Packing
                 </div>
-                <div class="mt40">
+                <div class="mt40 animated">
                     <p class="fs18">Calcium Bromide Packing:</p>
                     <ul class="Specificationslist">
                         <li><span>•</span> Fiber drums lined with plastic or polypropylene bags..</li>
                     </ul>
                 </div>
-                <div class="mt40 phototit">
+                <div class="mt40 phototit animated">
                     <p class="fs18">Photo Gallery:</p>
                 </div>
-                <div class="Gallerybox mt30">
+                <div class="Gallerybox mt30 animated">
                     <div class="swiper-container Gallerybox-swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide" class="imgbox"><img src="images/pro.png" alt="Calcium Bromide"></div>
-                            <div class="swiper-slide" class="imgbox"><img src="images/pro.png" alt="Calcium Bromide"></div>
-                            <div class="swiper-slide" class="imgbox"><img src="images/pro.png" alt="Calcium Bromide"></div>
-                            <div class="swiper-slide" class="imgbox"><img src="images/pro.png" alt="Calcium Bromide"></div>
-                            <div class="swiper-slide" class="imgbox"><img src="images/pro.png" alt="Calcium Bromide"></div>
-                            <div class="swiper-slide" class="imgbox"><img src="images/pro.png" alt="Calcium Bromide"></div>
-                        </div>                     
+                            <div class="swiper-slide" class="imgbox">
+                                <a class="fancy" href="images/pro.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pro.png" alt="Calcium Bromide"></a></div>
+                            <div class="swiper-slide" class="imgbox">
+                                <a class="fancy" href="images/pro.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pro.png" alt="Calcium Bromide"></a></div>
+                            <div class="swiper-slide" class="imgbox">
+                                <a class="fancy" href="images/pro.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pro.png" alt="Calcium Bromide"></a></div>
+                            <div class="swiper-slide" class="imgbox">
+                                <a class="fancy" href="images/pro.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pro.png" alt="Calcium Bromide"></a></div>
+                            <div class="swiper-slide" class="imgbox">
+                                <a class="fancy" href="images/pro.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pro.png" alt="Calcium Bromide"></a></div>
+                            <div class="swiper-slide" class="imgbox">
+                                <a class="fancy" href="images/pro.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pro.png" alt="Calcium Bromide"></a></div>
+                            <div class="swiper-slide" class="imgbox">
+                                <a class="fancy" href="images/pro.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pro.png" alt="Calcium Bromide"></a></div>
+                        </div>
                     </div>
-                     <!-- 如果需要导航按钮 -->
+                    <!-- 如果需要导航按钮 -->
                     <div class="swiper-button-prev Gallerybox-prev">
-                    	<i class="fa-chevron-left fa "></i>
+                        <i class="fa-chevron-left fa "></i>
                     </div>
                     <div class="swiper-button-next Gallerybox-next">
-                    	<i class="fa-chevron-right fa "></i>
+                        <i class="fa-chevron-right fa "></i>
                     </div>
                 </div>
             </div>
