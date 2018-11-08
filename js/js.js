@@ -99,7 +99,7 @@ $(function() {
 
 
     function changeWindowWidth() {
-        win_w = $(window).width();
+        var win_w = $(window).width();
         if(win_w > 1280){
             shownum1 = 4;
             shownum2 = 5;
@@ -119,12 +119,14 @@ $(function() {
             shownum2 = 1;
         }
 
+
+
     }
     changeWindowWidth();
 
-    window.onresize = function() {
-         changeWindowWidth();
-    }
+   
+
+   
 
    
 
@@ -134,11 +136,14 @@ $(function() {
     var showper = InitializeSwiper('.showPre', shownum1, 24, '.showPre-prev', '.showPre-next');
     var swiperGallery = InitializeSwiper('.Gallerybox-swiper', shownum2, 24, '.Gallerybox-prev', '.Gallerybox-next');
 
-    window.onresize = function() {
-        changeWindowWidth();
-        showper = InitializeSwiper('.showPre', shownum1, 24, '.showPre-prev', '.showPre-next');
-        swiperGallery = InitializeSwiper('.Gallerybox-swiper', shownum2, 24, '.Gallerybox-prev', '.Gallerybox-next');
-    }
+     $(window).resize(function() {
+          changeWindowWidth();
+          console.log('shownum1:'+ shownum1+ 'shownum2:'+ shownum2);
+          showper = InitializeSwiper('.showPre', shownum1, 24, '.showPre-prev', '.showPre-next');
+          swiperGallery = InitializeSwiper('.Gallerybox-swiper', shownum2, 24, '.Gallerybox-prev', '.Gallerybox-next');
+    })
+
+   
 
   
 

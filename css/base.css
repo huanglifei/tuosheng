@@ -420,7 +420,7 @@ header .logo-box .nav-box .searchbox input {
 }
 .swiper-button-prev,
 .swiper-button-next {
-  z-index: 10000000000000;
+  z-index: 998;
 }
 .indexbanner {
   clear: both;
