@@ -47,6 +47,7 @@ window.onload = function (){
 $(function(){
 	var indexbanner = InitializeSwiper('.indexbanner',1,0,'.indexbanner-prev','.indexbanner-next');
 	var showper =  InitializeSwiper('.showPre',4,24,'.showPre-prev','.showPre-next');
+    var swiperGallery = InitializeSwiper('.Gallerybox-swiper',5,24,'.Gallerybox-prev','.Gallerybox-next');
 
 
 	
