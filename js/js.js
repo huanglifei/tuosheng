@@ -42,10 +42,12 @@ function setAnimation(element){
         var dTop = $(document).scrollTop();  //绿色框可视区域上面到黑色页面顶部的距离，会实时改变
        
         var atop = parseInt(dTop) + parseInt(wTop) ;
-        console.log('atop:'+ parseInt(dTop)+ '22'+'  '+ parseInt(wTop));
+       
         if(atop > eTop){
 
            $(element).addClass('fadeInUp'); 
+        }else{
+             // $(element).removeClass('fadeInUp');
         }
     });
 
@@ -64,8 +66,8 @@ window.onload = function() {
         var win_w = $(window).width();
         var topH = $('.J-indexbanner').height();
          if (win_w > 640) {          
-            topH = 0.8 * topH;
-            $('.J-showPre').css('margin-top', topH + 'px');
+            topH = 0.2 * topH;
+            $('.J-showPre').css('margin-top', -topH + 'px');
         }
 
         $(window).resize(function() {
@@ -73,8 +75,8 @@ window.onload = function() {
             topH = $('.J-indexbanner').height();
           
             if (win_w > 640) {
-                topH = 0.8 * topH;
-                $('.J-showPre').css('margin-top', topH + 'px');
+                topH = 0.2 * topH;
+                $('.J-showPre').css('margin-top', -topH + 'px');
             }
         })
 

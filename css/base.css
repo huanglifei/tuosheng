@@ -143,8 +143,16 @@ body {
 .fcblue {
   color: #28346e;
 }
+.fexbox {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  height: 112px;
+}
 header {
   position: relative;
+  background: #fff;
 }
 header .header {
   height: 40px;
@@ -178,7 +186,7 @@ header .header .rightmenu a img {
 }
 header .logo-box {
   position: absolute;
-  top: 77px;
+  top: 76px;
   left: 50%;
   width: 100%;
   -ms-transform: translate(-50%, -50%);
@@ -416,9 +424,6 @@ header .logo-box .nav-box .searchbox input {
 }
 .indexbanner {
   clear: both;
-  position: absolute;
-  z-index: 100;
-  top: 42px;
   width: 100%;
   overflow: hidden;
   border-bottom-left-radius: 10%;
@@ -1037,6 +1042,9 @@ table {
 }
 .mobile-header {
   display: none;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
   width: 100%;
 }
 .mobile-header .icontbox {
@@ -1129,7 +1137,7 @@ table {
     margin-top: 0;
   }
   .indexbanner {
-    top: 80px;
+    top: 0px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1244,8 +1252,7 @@ table {
   }
   .indexbanner {
     position: relative;
-    top: 0;
-    border-radius: 0;
+    top: 80px;
   }
   .indexbanner .swiper-slide .txt-box h3 {
     font-size: 20px;
@@ -1267,6 +1274,7 @@ table {
   .pageheadtop .picbox {
     height: 100px;
     overflow: hidden;
+    margin-top: 80px;
   }
   .pageheadtop .menubox {
     margin-top: -50px;

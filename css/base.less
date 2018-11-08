@@ -186,16 +186,22 @@ body {
 .fcblue {
     color: #28346e;
 }
-
+.fexbox{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 999;
+    height: 112px;
+}
 header {
     position: relative;
-
+      background: #fff;
     .header {
         height: 40px;
         line-height: 40px;
         max-width: 1200px;
         margin: auto;
-
+      
         .rightmenu {
             float: right;
 
@@ -235,7 +241,7 @@ header {
     .logo-box {
 
         position: absolute;
-        top: 77px;
+        top: 76px;
         left: 50%;
         width: 100%;
         -ms-transform: translate(-50%, -50%);
@@ -583,9 +589,9 @@ header {
 }
 .indexbanner {
     clear: both;
-    position: absolute;
-    z-index: 100;
-    top: 42px;
+    // position: absolute;
+    // z-index: 100;
+    // top: 42px;
     width: 100%;
     overflow: hidden;
     border-bottom-left-radius: 10%;
@@ -1392,9 +1398,11 @@ table {
 
 .mobile-header{
     display: none;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
     width: 100%;
     .icontbox{
-
         background: #28346e;
         .menubox{
             width: 80px;
@@ -1523,7 +1531,7 @@ table {
         margin-top: 0;
     }
     .indexbanner{
-        top:80px;
+        top:0px;
     }
 }
 
@@ -1660,8 +1668,8 @@ table {
 
     .indexbanner {
         position: relative;
-        top: 0;
-        border-radius: 0;
+        top: 80px;
+        // border-radius: 0;
 
     }
 
@@ -1692,7 +1700,7 @@ table {
     .pageheadtop .picbox{
         height: 100px;
         overflow: hidden;
-
+        margin-top: 80px;
     }
 
     .pageheadtop .menubox{

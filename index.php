@@ -1,6 +1,6 @@
 <?php include 'public/header.html';?>
 <!-- 中部 start -->
-<div class="pagewrapbox">
+<div class="pagewrapbox ">
     <div class="swiper-container clearfix indexbanner banner-index J-indexbanner">
         <div class="swiper-wrapper">
             <div class="swiper-slide banner">
