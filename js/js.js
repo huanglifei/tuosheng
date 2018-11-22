@@ -39,15 +39,35 @@ function setAnimation(element){
 
    
     $(window).scroll(function(){
+
+
         var dTop = $(document).scrollTop();  //绿色框可视区域上面到黑色页面顶部的距离，会实时改变
        
-        var atop = parseInt(dTop) + parseInt(wTop) ;
+        var atop = parseInt(dTop) + parseInt(wTop) + 200;
        
         if(atop > eTop){
 
-           $(element).addClass('fadeInUp'); 
+            // if($(element).is(":hidden")){
+                 
+            // }
+
+            // if(!$(element).hasClass('fadeInUp')){
+            //      $(element).addClass('fadeInUp');
+            // }
+
+             $(element).stop(true,true).addClass(' fadeInUp');
+
+
+
+           
+
+          
+
+           
         }else{
-             // $(element).removeClass('fadeInUp');
+
+            // $(element).removeClass('fadeInUp');
+            
         }
     });
 
@@ -57,6 +77,8 @@ function setAnimation(element){
 
 //页面加载动画
 window.onload = function() {
+    
+
     if ($(".loadingpage").length > 0) {
         $(".loadingpage").fadeOut("slow");
     }
@@ -158,7 +180,7 @@ $(function() {
     $('body').on('click',function(){
         $('.J-mobile-box').slideUp();
     });
-
+  
     $('.animated').each(function(index,item){
         setAnimation(item);
     });

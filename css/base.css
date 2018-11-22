@@ -418,6 +418,9 @@ header .logo-box .nav-box .searchbox input {
 .mt70 {
   margin-top: 70px;
 }
+.animated {
+  transition: 0.3s;
+}
 .swiper-button-prev,
 .swiper-button-next {
   z-index: 998;

@@ -104,21 +104,21 @@
                 <div class="swiper-button-next showPre-next"><i class="fa fa-chevron-right"></i></div>
             </div>
             <!-- About us -->
-            <div class="index-about clearfix mt50">
-                <div class="w1200 animated ">
-                    <h3 class="fs72">About us</h3>
+            <div class="index-about clearfix mt50 ">
+                <div class="w1200  animated ">
+                    <h3 class="fs72 ">About us</h3>
                     <div class="mt30 ">TOPTIONCHEM is dedicated to environmental friendly chemicals . Such as Encapsulated Gel Breaker、 Bio-based Succinic Acid series、nontoxic environmental PVC stabilizer , etc.TOPTIONCHEM ,specialized in Encapsulated Gel Breaker. It is widely used on Petroleum Hydraulic Fracturing field to low the viscosity of the Guar Gum.Our annual capacity is 4000MT, can assure your supplyment...
                         We have  perfect lab test equipment ..., such as Grace M5600, assure good quality control.We can customize the Gel Breaker according to your demand on temperature and break time...</div>
-                    <a class="pagebtn mt50 animated "  href="">
+                    <a class="pagebtn mt50  animated"  href="">
                 <span class="animatebox"></span>
                 More <i class="fa fa-angle-right"></i>
                 </a>
                 </div>
             </div>
         </div>
-        <div class="sentmsg">
+        <div class="sentmsg ">
             <div class="w1200 animated">
-                <h3 class="fs72">Inquiry</h3>
+                <h3 class="fs72 ">Inquiry</h3>
                 <div class="mt30">Fill the products you want to inquiry in the form below. We'll contact you as soon as possible</div>
                 <div class="formbox">
                     <div class="index-input clearfix">
@@ -130,7 +130,7 @@
                         <textarea placeholder="* Message"></textarea>
                     </div>
                 </div>
-                <a class="pagebtn mt50 animated fadeInUp"  href="javascript:;">
+                <a class="pagebtn mt50 animated"  href="javascript:;">
                 <span class="animatebox"></span>
                 Submit <i class="fa fa-angle-right"></i>
                 </a>
