@@ -1,8 +1,12 @@
 // swiper de 初始化
-function InitializeSwiper(obj_swiper_container, slidesPerViewNUM, spaceBetweenNum, obj_prev, obj_next) {
+function InitializeSwiper(obj_swiper_container, slidesPerViewNUM, spaceBetweenNum,flag, obj_prev, obj_next) {
+    
+    
+
     var obj = new Swiper(obj_swiper_container, {
         direction: 'horizontal', // 垂直切换选项
         loop: true, // 循环模式选项
+        autoplay: flag,
 
         slidesPerView: slidesPerViewNUM,
         spaceBetween: spaceBetweenNum,
@@ -108,13 +112,7 @@ window.onload = function() {
 
 
 $(function() {
-    if ($('.fancy').length > 0) {
-        $('.fancy').fancybox();
-    }
-
-
-
-
+    
     var shownum1 = 4;
     var shownum2 = 5;
     var win_w = $(window).width();
@@ -155,8 +153,8 @@ $(function() {
 
 
 
-    var showper = InitializeSwiper('.showPre', shownum1, 24, '.showPre-prev', '.showPre-next');
-    var swiperGallery = InitializeSwiper('.Gallerybox-swiper', shownum2, 24, '.Gallerybox-prev', '.Gallerybox-next');
+    var showper = InitializeSwiper('.showPre', shownum1, 24,false, '.showPre-prev', '.showPre-next');
+    var swiperGallery = InitializeSwiper('.Gallerybox-swiper', shownum2, 24,false, '.Gallerybox-prev', '.Gallerybox-next');
 
      $(window).resize(function() {
           changeWindowWidth();
@@ -169,7 +167,7 @@ $(function() {
 
   
 
-    var indexbanner = InitializeSwiper('.indexbanner', 1, 0, '.indexbanner-prev', '.indexbanner-next');
+    var indexbanner = InitializeSwiper('.indexbanner', 1, 0,true, '.indexbanner-prev', '.indexbanner-next');
 
 
     $('.J-mobile-nav').on('click',function(e){
@@ -191,3 +189,8 @@ $(function() {
 });
 
 
+$(document).ready(function () {
+    if ($('.fancy').length > 0) {
+        $('.fancy').fancybox();
+    }
+})
